@@ -1,0 +1,9 @@
+Power Grid Monitoring System
+
+Condition              Normal  OV  OC  Frequency Fault  Grid Fault
+--------------------------------------------------------------------
+Normal                 1       0   0       0              0
+Over Voltage           0       1   0       0              1
+Over Current           0       0   1       0              1
+Frequency Fault        0       0   0       1              1
+Multiple Faults        0       1   1       1              1
